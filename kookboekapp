@@ -1,0 +1,20 @@
+// Kookboekapp door Bob, Yorick, Tim en Roy
+
+var eten = prompt("Wat wil je eten?");
+
+if (eten === "niks")
+{
+    confirm("FUCK OFF!");
+}
+
+else
+{
+    var ingredienteen = prompt("Wat is het eerste ingrediënt dat je nodig hebt voor de " + eten + " ?");
+    var ingredienttwee = prompt("Wat is het tweede ingrediënt dat je nodig hebt voor de " + eten + " ?");
+    var ingredientdrie = prompt("Wat is het derde ingrediënt dat je nodig hebt voor de " + eten + " ?");
+
+    confirm("Kneed de " + ingredienteen + " samen met de " + ingredienttwee + " 5 minuten lang. Doe daarna de "
++ ingredientdrie + " erbij.")
+    
+}
+
